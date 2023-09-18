@@ -1,0 +1,49 @@
+.work {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.title-about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.work-list-item {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.work-overlay {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+}
+
+.overlay-text {
+  display: block;
+  font-family: "Roboto";
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.13;
+  color: var(--white-color);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0 auto;
+}

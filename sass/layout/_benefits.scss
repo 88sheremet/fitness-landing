@@ -1,0 +1,132 @@
+@media screen and (min-width: 280px) {
+  .benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-top: 94px;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list {
+    display: flex;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .list__item {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list__item {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list__item {
+    width: 270px;
+  }
+}
+
+.list__item-box {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 280px) {
+  .list__item-box {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list__item-box {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list__item-box {
+    width: 270px;
+  }
+}
+
+.list-box-svg {
+  margin-top: 25px;
+
+  width: 70px;
+  height: 70px;
+}
+
+.list__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 280px) {
+  .list__item-title {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list__item-title {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list__item-title {
+    display: block;
+  }
+}
+
+.list__item-text {
+  font-size: 14px;
+
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
