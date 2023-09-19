@@ -1,7 +1,6 @@
 .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #ececec;
   position: absolute;
 }
 
@@ -123,10 +122,10 @@
     display: block;
     content: "";
     background: var(--accent-color);
-    height: 4px;
+    height: 2px;
     left: 0;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 6px;
   }
 }
 

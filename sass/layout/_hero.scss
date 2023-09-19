@@ -77,23 +77,35 @@
 
 .hero__title {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.42;
-  margin: 0 auto;
-  text-align: center;
+  padding-left: 15px;
+  // margin: 0 auto;
+  // text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--second-color);
+  color: var(--accent-color2);
   margin-bottom: 30px;
 }
-
-
-@media screen and (min-width: 1200px) {
-  .hero__title {
-    font-size: 44px;
-    line-height: 1.37;
-  }
+.hero__title2 {
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 15px;
+  line-height: 1.42;
+  // margin: 0 auto;
+  // text-align: center;
+  letter-spacing: 0.06em;
+  // text-transform: uppercase;
+  color: var(--white-color);
+  // margin-bottom: 30px;
 }
+
+// @media screen and (min-width: 1200px) {
+//   .hero__title {
+//     font-size: 44px;
+//     line-height: 1.37;
+//   }
+// }
 
 .hero__button {
   font-weight: 700;
@@ -104,7 +116,7 @@
   background: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
-  padding: 10px 32px;
+  padding: 5px 10px;
   display: block;
   min-width: 200px;
   margin: 0 auto;

@@ -2,6 +2,7 @@
   --primary-text-color: #212121;
   --second-text-color: #757575;
   --accent-color: #a4742c;
+  --accent-color2: #d1a300;
   --background-color: #2F303A;
   --white-color: #FFFFFF;
   --background-page-color: #F5F5F5;
@@ -107,7 +108,6 @@ ul {
 .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #ececec;
   position: absolute;
 }
 
@@ -189,10 +189,10 @@ ul {
   display: block;
   content: "";
   background: var(--accent-color);
-  height: 4px;
+  height: 2px;
   left: 0;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 6px;
 }
 
 .nav {
@@ -384,22 +384,24 @@ ul {
 }
 .hero__title {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.42;
-  margin: 0 auto;
-  text-align: center;
+  padding-left: 15px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--second-color);
+  color: var(--accent-color2);
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 1200px) {
-  .hero__title {
-    font-size: 44px;
-    line-height: 1.37;
-  }
+.hero__title2 {
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 15px;
+  line-height: 1.42;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
 }
+
 .hero__button {
   font-weight: 700;
   font-size: 16px;
@@ -409,7 +411,7 @@ ul {
   background: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
-  padding: 10px 32px;
+  padding: 5px 10px;
   display: block;
   min-width: 200px;
   margin: 0 auto;
