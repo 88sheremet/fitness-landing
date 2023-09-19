@@ -368,38 +368,49 @@ ul {
 
 @media screen and (min-width: 280px) {
   .hero {
-    padding-top: 91px;
-    padding-bottom: 118px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/main-bg.png");
-    background-size: 480px 400px;
+    padding-top: 3px;
+    padding-bottom: 201px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bgs.png);
+    background-size: 552px 279px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left top;
     margin: 0 auto;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/main-bg.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bgs.png");
   }
 }
 .hero__title {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.42;
-  padding-left: 15px;
+  padding-left: 0px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color2);
-  margin-bottom: 30px;
 }
 
 .hero__title2 {
   font-weight: 700;
   font-size: 12px;
-  padding-left: 15px;
+  padding-left: 0px;
+  padding-top: 85px;
   line-height: 1.42;
   letter-spacing: 0.06em;
   color: var(--white-color);
+}
+
+.hero__title3 {
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 0px;
+  padding-top: 4px;
+  line-height: 1.42;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  margin-bottom: 15px;
 }
 
 .hero__button {
@@ -426,11 +437,34 @@ ul {
   background-color: #188ce8;
 }
 
-@media screen and (min-width: 1200px) {
-  .hero__button {
-    min-width: 216px;
-  }
+.modal-form-subscribe-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 165px;
+  height: 35px;
+  padding: 2px 28px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: none;
 }
+
+.button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  margin-right: 10px;
+  color: var(--white-color);
+}
+
+.subscribe-image-btn {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 @media screen and (min-width: 280px) {
   .benefits {
     padding-top: 30px;
@@ -1046,51 +1080,8 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.modal-form-subscribe-btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  min-width: 200px;
-  height: 50px;
-  padding: 10px 28px;
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-}
-
-@media screen and (min-width: 768px) {
-  .modal-form-subscribe-btn {
-    width: 200px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-form-subscribe-btn {
-    width: 200px;
-  }
-}
-.button-text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  margin-right: 10px;
-  color: var(--white-color);
-}
-
 .footer-item {
   display: flex;
-}
-
-.subscribe-image-btn {
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.modal-form-subscribe-icon {
-  display: flex;
-  padding-top: 4px;
 }
 
 .modal {
