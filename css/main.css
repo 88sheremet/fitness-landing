@@ -474,6 +474,11 @@ ul {
 }
 .list__item {
   width: 450px;
+  background: #211f1f;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list__item-box {
@@ -488,6 +493,10 @@ ul {
 
 .list__item-box {
   width: 100%;
+}
+
+.list__item-image {
+  margin-bottom: 10px;
 }
 
 .list-box-svg {
@@ -508,6 +517,18 @@ ul {
 .list__item-title {
   display: flex;
   justify-content: center;
+  color: var(--white-color);
+}
+
+.list2 {
+  list-style-type: square;
+  font-size: 13px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.list2__item {
+  color: var(--white-color);
 }
 
 .list__item-text {
