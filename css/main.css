@@ -479,6 +479,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .list__item-box {
@@ -538,54 +539,55 @@ ul {
   color: var(--second-text-color);
 }
 
-@media (max-width: 768px) {
-  .work {
-    display: none;
-  }
+.subscribe2 {
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+.work {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bg2.png);
+  background-size: 861px 516px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin: 0 auto;
 }
 
 .title-about {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+  color: var(--white-color);
+}
+
+.work__content {
+  display: flex;
+  gap: 15px;
 }
 
 .work-list {
-  display: flex;
-  column-gap: 30px;
-}
-
-.work-list-item {
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-
-.work-overlay {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0;
-}
-
-.overlay-text {
-  display: block;
-  font-family: "Roboto";
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.13;
+  width: 262px;
   color: var(--white-color);
-  padding-top: 27px;
-  padding-bottom: 27px;
-  margin: 0 auto;
+  font-size: 13px;
+}
+
+.work-list-item1 {
+  margin-bottom: 13px;
+  margin-top: -5px;
+}
+
+.work-list-item2 {
+  margin-bottom: 38px;
+}
+
+.work-list-item3 {
+  margin-bottom: 50px;
+}
+
+.work-list-item4 {
+  margin-bottom: 53px;
 }
 
 .team {
