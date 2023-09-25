@@ -371,7 +371,7 @@ ul {
     padding-top: 3px;
     padding-bottom: 201px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bgs.png);
-    background-size: 552px 279px;
+    background-size: 592px 305px;
     background-repeat: no-repeat;
     background-position: left top;
     margin: 0 auto;
@@ -540,8 +540,7 @@ ul {
 }
 
 .subscribe2 {
-  margin-bottom: 10px;
-  width: 40px;
+  min-width: 135px;
 }
 
 .work {
