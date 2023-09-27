@@ -49,7 +49,7 @@ button {
 body {
   background: #131313;
   color: var(--white-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-weight: 400;
 }
@@ -371,7 +371,7 @@ ul {
     padding-top: 3px;
     padding-bottom: 201px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bgs.png);
-    background-size: 595px 305px;
+    background-size: 610px 311px;
     background-repeat: no-repeat;
     background-position: left top;
     margin: 0 auto;
@@ -384,7 +384,7 @@ ul {
 }
 .hero__title {
   font-weight: 900;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.42;
   padding-left: 0px;
   letter-spacing: 0.06em;
@@ -394,7 +394,7 @@ ul {
 
 .hero__title2 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 0px;
   padding-top: 100px;
   line-height: 1.42;
@@ -404,7 +404,7 @@ ul {
 
 .hero__title3 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 0px;
   padding-top: 4px;
   line-height: 1.42;
@@ -474,7 +474,7 @@ ul {
 .list__item {
   width: 450px;
   background: #211f1f;
-  opacity: 0.8;
+  opacity: 0.9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -566,9 +566,16 @@ ul {
 }
 
 .work-list {
-  width: 262px;
+  width: 358px;
   color: var(--white-color);
-  font-size: 13px;
+  font-size: 14px;
+}
+
+.work-list__item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 357px;
 }
 
 .work-list-item1 {
@@ -577,19 +584,30 @@ ul {
 
 .work-list-item2 {
   margin-bottom: 38px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .work-list-item3 {
   margin-bottom: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .work-list-item4 {
   margin-bottom: 53px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.work-list-item5 {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .team {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bg3.png);
-  background-size: 595px 570px;
+  background-size: 595px 623px;
   background-repeat: no-repeat;
   background-position: left top;
   margin: 0 auto;
@@ -621,7 +639,7 @@ ul {
 
 .team-image {
   margin: 0 auto;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-bottom: 10px;
 }
 
@@ -631,6 +649,7 @@ ul {
 
 .team-list {
   text-align: left;
+  line-height: 23px;
 }
 
 .clients__title {
