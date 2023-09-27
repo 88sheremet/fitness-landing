@@ -5,7 +5,7 @@
 }
 
 .benefits__title {
-  color: var(--white-color);
+  color: var(--accent-color2);
   text-align: center;
   margin-bottom: 15px;
 }
@@ -14,15 +14,14 @@
   border: 1px solid var(--accent-color);
 }
 
-@media screen and (min-width: 280px) {
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    border: 1px solid var(--accent-color);
-    border-radius: 3px;
-  }
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  border: 1px solid var(--accent-color);
+  border-radius: 3px;
 }
+
 .list__item {
   width: 450px;
   background: #211f1f;

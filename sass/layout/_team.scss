@@ -5,13 +5,13 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/mobile/bg3.png);
-    background-size: 595px 550px;
+  background-size: 595px 570px;
   background-repeat: no-repeat;
   background-position: left top;
   margin: 0 auto;
 }
 
-.title-team {
+.team__title {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
@@ -21,29 +21,29 @@
   font-size: 26px;
   line-height: 1.18;
   margin-bottom: 30px;
-  color: var(--white-color);
+  color: var(--accent-color2);
 }
 .team__benefits {
   color: var(--white-color);
   text-align: left;
   padding-left: 10px;
 }
-.team__content{
+.team__content {
   display: flex;
   flex-direction: column;
 }
 .team-image {
-margin: 0 auto;
-opacity: 0.8;
-margin-bottom: 10px;
-}
-.team__benefits{
-  // margin: 0 auto;
-}
-.team__text1{
+  margin: 0 auto;
+  opacity: 0.8;
   margin-bottom: 10px;
 }
-.team-list{
+.team__benefits {
+  // margin: 0 auto;
+}
+.team__text1 {
+  margin-bottom: 10px;
+}
+.team-list {
   text-align: left;
 }
 // @media screen and (min-width: 768px) {
