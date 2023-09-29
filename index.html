@@ -24,18 +24,18 @@
         <nav class="menu">
           <ul class="menu-list">
             <li class="menu-list__item">
-              <a href="./index.html" class="menu-item menu-item__current"
-                ><span class="current-line">О проекте</span>
+              <a href="#main" class="menu-item"
+                ><span class="current-line">Главная</span>
               </a>
             </li>
             <li class="menu-list__item">
-              <a href="./portfolio.html" class="menu-item">Программы</a>
+              <a class="menu-item" href="#programs">Программы</a>
             </li>
             <li class="menu-list__item">
-              <a href="" class="menu-item">Обо мне</a>
+              <a class="menu-item" href="#about">Обо мне</a>
             </li>
             <li class="menu-list__item">
-              <a href="" class="menu-item">Вопросы</a>
+              <a class="menu-item" href="#questions">Вопросы</a>
             </li>
           </ul>
         </nav>
@@ -135,7 +135,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section id="main" class="hero">
         <div class="container">
           <h2 class="hero__title2">Онлайн фитнес тренер</h2>
           <h1 class="hero__title">Александр Шеремет</h1>
@@ -155,7 +155,7 @@
       </section>
 
       <section class="benefits">
-        <h2 class="benefits__title">Направления тренировок</h2>
+        <h2 id="programs" class="benefits__title">Направления тренировок</h2>
         <div class="container">
           <ul class="list">
             <li class="list__item">
@@ -167,11 +167,12 @@
               />
               <h3 class="list__item-title">Спина без боли</h3>
               <ul class="list2">
-                <li class="list2__item">Устранение различных болей в спине</li>
+                <li class="list2__item">Укрепление мышц спины</li>
+                <li class="list2__item">Устранение различных болей в спине и шейном отделе</li>
                 <li class="list2__item">
                   Снижение риска травматизма в повседневной жизни
                 </li>
-                <li class="list2__item">Укрепление мышц спины</li>
+                
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="modal-form-subscribe-btn">
@@ -240,8 +241,9 @@
               />
               <h3 class="list__item-title">Зарядка</h3>
               <ul class="list2">
-                <li class="list2__item">Профилактика различных болей</li>
                 <li class="list2__item">Общее улучшение самочувствия</li>
+                <li class="list2__item">Профилактика различных болей в спине, шейном отделе, тазобедренном суставе</li>
+                <li class="list2__item">Улучшение подвижности в теле</li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="modal-form-subscribe-btn">
@@ -332,7 +334,7 @@
 
       <section class="team section">
         <div class="container">
-          <h2 class="team__title">Обо мне</h2>
+          <h2 id="about" class="team__title">Обо мне</h2>
           <div class="team__content">
             <img
               src="./img/mobile/5.JPG"
@@ -370,17 +372,18 @@
           <iframe
             width="300"
             height="280"
-            src="https://www.youtube.com/embed/4WGB-U_E5xs?si=T21gvYvP4oPuk_ji"
+            src="https://www.youtube.com/embed/XO9GqbvT8uU?si=jOxO7RyA-697p7mj"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+          
           <h3 class="clients__subtitle">Дистанционные тренировки</h3>
           <iframe
             width="300"
             height="280"
-            src="https://www.youtube.com/embed/XO9GqbvT8uU?si=jOxO7RyA-697p7mj"
+            src="https://www.youtube.com/embed/4WGB-U_E5xs?si=T21gvYvP4oPuk_ji"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -391,7 +394,7 @@
 
       <section class="section questions">
         <div class="container">
-          <h2 class="questions__title">Часто задаваемые вопросы</h2>
+          <h2 id="questions" class="questions__title">Часто задаваемые вопросы</h2>
           <div class="questions__list">
             <div class="question1 question">
               <div class="question-box1 question-box">
