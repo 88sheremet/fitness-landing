@@ -24,29 +24,34 @@
         <nav class="menu">
           <ul class="menu-list">
             <li class="menu-list__item">
-              <a href="#main" class="menu-item"
+              <a href="#main" class="menu-item lng-main"
                 ><span class="current-line">Главная</span>
               </a>
             </li>
             <li class="menu-list__item">
-              <a class="menu-item" href="#programs">Программы</a>
+              <a class="menu-item lng-programs" href="#programs">Программы</a>
             </li>
             <li class="menu-list__item">
-              <a class="menu-item" href="#about">Обо мне</a>
+              <a class="menu-item lng-about-me" href="#about">Обо мне</a>
             </li>
             <li class="menu-list__item">
-              <a class="menu-item" href="#questions">Вопросы</a>
+              <a class="menu-item lng-questions" href="#questions">Вопросы</a>
             </li>
           </ul>
         </nav>
 
+        <select name="lang" id="select" class="change-lang">
+          <option value="ua">UA</option>
+          <option value="ru" selected>RU</option>
+          <option value="en">EN</option>
+        </select>
         <!-- <button type="button" class="mobile-menu-btn" data-menu-open>
           <svg class="mobile-menu-btn__icon" width="40" height="40">
             <use href="./img/sprite.svg#icon-burger"></use>
           </svg>
         </button> -->
 
-        <ul class="nav">
+        <!-- <ul class="nav"> -->
           <!-- <li class="nav__link">
             <a href="mailto:info@devstudio.com" class="nav__items">
               <svg class="contact-list" width="16" height="12">
@@ -55,7 +60,7 @@
               <span class="nav-info">info@devstudio.com</span></a
             >
           </li> -->
-          <li class="nav__link">
+          <!-- <li class="nav__link">
             <a href="tel:+380961111111" class="nav__items">
               <svg class="contact-list" width="10" height="16">
                 <use href="./img/sprite.svg#icon-smartphone"></use>
@@ -63,7 +68,7 @@
               +38 096 111 11 11</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
 
       <!-- <div class="mobile-menu" data-menu>
@@ -640,5 +645,7 @@
     <!-- <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script> -->
     <script src="./js/questions.js"></script>
+    <script src="./js/lang.js"></script>
+    <script src="./js/change-lang.js"></script>
   </body>
 </html>
