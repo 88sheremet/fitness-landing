@@ -106,8 +106,8 @@ ul {
   }
 }
 .page-header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: fixed;
   background: #211f1f;
   width: 100%;
@@ -123,6 +123,7 @@ ul {
   display: flex;
   align-items: center;
   column-gap: 40px;
+  display: none;
 }
 
 .menu__logo {
@@ -150,6 +151,7 @@ ul {
   border: none;
   padding: 0;
   line-height: 0;
+  fill: var(--accent-color2);
 }
 
 .menu-list {
@@ -249,14 +251,14 @@ ul {
 
 #select {
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: 700;
   color: #444;
   line-height: 1.3;
   padding: 0.6em 1.4em 0.5em 0.8em;
   width: 100%;
-  width: 65px;
+  width: 60px;
   box-sizing: border-box;
   margin: 0;
   border: 1px solid #aaa;
@@ -297,15 +299,18 @@ ul {
   padding: 0.6em 0.8em 0.5em 1.4em;
 }
 
+.color {
+  color: #211f1f;
+}
+
 .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: var(--white-color);
   z-index: 100;
-  max-height: 796px;
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
@@ -334,7 +339,6 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-  margin-bottom: 306px;
 }
 
 .menu-burger__link {
