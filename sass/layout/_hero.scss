@@ -1,3 +1,7 @@
+main{
+  padding-top: 50px;
+}
+
 @media screen and (min-width: 280px) {
   .hero {
     padding-top: 3px;
@@ -76,31 +80,32 @@
 
 .hero__title {
   font-weight: 900;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.42;
   padding-left: 0px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color2);
+  margin-bottom: 3px;
 }
 .hero__title2 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 0px;
-  padding-top: 100px;
+  padding-top: 35px;
   line-height: 1.42;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  margin-bottom: 3px;
 }
 .hero__title3 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 0px;
-  padding-top: 4px;
   line-height: 1.42;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 // @media screen and (min-width: 1200px) {
