@@ -7,11 +7,9 @@
 .benefits__title {
   color: var(--accent-color2);
   text-align: center;
-  margin-bottom: 15px;
-}
-
-.border {
-  border: 1px solid var(--accent-color);
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: 900;
 }
 
 .list {
@@ -19,7 +17,7 @@
   flex-wrap: wrap;
   gap: 30px;
   border: 1px solid var(--accent-color);
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .list__item {
@@ -30,6 +28,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 .list__item-box {
@@ -48,6 +47,7 @@
 
 .list__item-image {
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .list-box-svg {
@@ -58,7 +58,7 @@
 
 .list__item-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -73,13 +73,19 @@
 
 .list2 {
   list-style-type: square;
-  font-size: 13px;
+  font-size: 16px;
   padding-left: 20px;
   margin-bottom: 10px;
 }
 
 .list2__item {
   color: var(--white-color);
+  font-size: 15px;
+}
+
+.list2__item::marker {
+  width: 20px;
+  height: 20px;
 }
 
 .list__item-text {

@@ -1,9 +1,8 @@
 :root {
-  --primary-text-color: #212121;
+  --background-color: #1D1C1C;
   --second-text-color: #757575;
   --accent-color: #a4742c;
   --accent-color2: #d1a300;
-  --background-color: #2F303A;
   --white-color: #FFFFFF;
   --background-page-color: #F5F5F5;
   --addres-mail-color: rgba(255, 255, 255, 0.6);
@@ -47,9 +46,9 @@ button {
 }
 
 body {
-  background: #131313;
+  background: var(--background-color);
   color: var(--white-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0.03em;
   font-weight: 400;
 }
@@ -269,7 +268,7 @@ ul {
   -webkit-appearance: none;
   appearance: none;
   background-color: #fff;
-  background-image: url("/img/mobile/arrow.png"), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-image: url("../../img/mobile/arrow.png"), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
   background-repeat: no-repeat, repeat;
   background-position: right 0.5em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
@@ -308,10 +307,11 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  width: 170px;
-  height: 265px;
-  background-color: var(--white-color);
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
   z-index: 100;
+  max-height: 796px;
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
@@ -340,6 +340,8 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .menu-burger__link {
@@ -348,6 +350,20 @@ ul {
   line-height: 47px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.menu-burger__item {
+  color: var(--white-color);
+  font-size: 20px;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-burger__link-current {
@@ -392,9 +408,7 @@ ul {
 
 .mobile-menu__container {
   position: relative;
-  padding-left: 40px;
   padding-top: 48px;
-  padding-bottom: 58px;
 }
 
 .mobile-menu__close-btn {
@@ -411,12 +425,12 @@ ul {
 }
 
 .mobile-menu__close-icon {
-  fill: var(--primary-text-color);
+  fill: var(--accent-color2);
 }
 
 .mobile-menu__close-btn:hover,
 .mobile-menu__close-btn:focus {
-  fill: var(--accent-color);
+  fill: var(--accent-color2);
 }
 
 .mobile-menu__close-btn:hover .mobile-menu__close-icon,
@@ -430,10 +444,8 @@ main {
 
 @media screen and (min-width: 280px) {
   .hero {
-    padding-top: 3px;
-    padding-bottom: 215px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bgs.png);
-    background-size: 610px 311px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob.png");
+    background-size: 470px 474px;
     background-repeat: no-repeat;
     background-position: left top;
     margin: 0 auto;
@@ -441,9 +453,15 @@ main {
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bgs.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob.png");
   }
 }
+.hero__main-image {
+  margin: 0 auto;
+  opacity: 0.7;
+  margin-bottom: 152px;
+}
+
 .hero__title {
   font-weight: 900;
   font-size: 20px;
@@ -453,6 +471,7 @@ main {
   text-transform: uppercase;
   color: var(--accent-color2);
   margin-bottom: 3px;
+  text-align: center;
 }
 
 .hero__title2 {
@@ -464,6 +483,7 @@ main {
   letter-spacing: 0.06em;
   color: var(--white-color);
   margin-bottom: 3px;
+  text-align: center;
 }
 
 .hero__title3 {
@@ -473,7 +493,8 @@ main {
   line-height: 1.42;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .modal-form-subscribe-btn {
@@ -490,8 +511,29 @@ main {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 .modal-form-subscribe-btn:active {
+  background: var(--accent-color);
+}
+
+.subscribe-btn2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 165px;
+  height: 35px;
+  padding: 2px 20px;
+  background: #04070a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid var(--accent-color2);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn2:active {
   background: var(--accent-color);
 }
 
@@ -504,10 +546,19 @@ main {
   color: var(--white-color);
 }
 
+.button-text2 {
+  color: var(--accent-color2);
+}
+
 .subscribe-image-btn {
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
+  fill: var(--white-color);
+}
+
+.subscribe-image-btn2 {
+  fill: var(--accent-color2);
 }
 
 .benefits {
@@ -519,11 +570,9 @@ main {
 .benefits__title {
   color: var(--accent-color2);
   text-align: center;
-  margin-bottom: 15px;
-}
-
-.border {
-  border: 1px solid var(--accent-color);
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: 900;
 }
 
 .list {
@@ -531,7 +580,7 @@ main {
   flex-wrap: wrap;
   gap: 30px;
   border: 1px solid var(--accent-color);
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .list__item {
@@ -542,6 +591,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 .list__item-box {
@@ -560,6 +610,7 @@ main {
 
 .list__item-image {
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .list-box-svg {
@@ -570,7 +621,7 @@ main {
 
 .list__item-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -585,13 +636,19 @@ main {
 
 .list2 {
   list-style-type: square;
-  font-size: 13px;
+  font-size: 16px;
   padding-left: 20px;
   margin-bottom: 10px;
 }
 
 .list2__item {
   color: var(--white-color);
+  font-size: 15px;
+}
+
+.list2__item::marker {
+  width: 20px;
+  height: 20px;
 }
 
 .list__item-text {
