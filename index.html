@@ -8,10 +8,13 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
     <link
@@ -44,12 +47,12 @@
         </nav>
 
         <div class="custom-select">
-        <select name="lang" id="select" class="change-lang">
-          <option value="ua">UA</option>
-          <option value="ru" selected>RU</option>
-          <option value="en">EN</option>
-        </select>
-      </div>
+          <select name="lang" id="select" class="change-lang">
+            <option value="ua">UA</option>
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
         <button type="button" class="mobile-menu-btn" data-menu-open>
           <svg class="mobile-menu-btn__icon" width="44" height="44">
             <use href="./img/sprite.svg#icon-burger"></use>
@@ -91,13 +94,25 @@
               </a>
             </li>
             <li class="menu-burger__item">
-              <a class="menu-burger__item lng-programs programs-mobile" href="#programs">Программы</a>
+              <a
+                class="menu-burger__item lng-programs programs-mobile"
+                href="#programs"
+                >Программы</a
+              >
             </li>
             <li class="menu-burger__item">
-              <a class="menu-burger__item lng-about-me about-mobile" href="#about">Обо мне</a>
+              <a
+                class="menu-burger__item lng-about-me about-mobile"
+                href="#about"
+                >Обо мне</a
+              >
             </li>
             <li class="menu-burger__item">
-              <a class="menu-burger__item lng-questions questions-mobile" href="#questions">Вопросы</a>
+              <a
+                class="menu-burger__item lng-questions questions-mobile"
+                href="#questions"
+                >Вопросы</a
+              >
             </li>
           </ul>
 
@@ -153,7 +168,9 @@
           </h2>
           <a href="https://t.me/sheremetaleks" class="link">
             <button id="programs" class="modal-form-subscribe-btn">
-              <span class="button-text lng-main-btn">Записаться на тренировку</span>
+              <span class="button-text lng-main-btn"
+                >Записаться на тренировку</span
+              >
               <svg class="subscribe-image-btn" width="20" height="20">
                 <use href="./img/sprite.svg#icon-icon-send"></use>
               </svg>
@@ -167,25 +184,17 @@
                 srcset="./img/our-team-opt/tablet/tabl-1m.jpg 1x, ./img/our-team-opt/tablet/tabl-1m@2x.jpg 2x"
                 media="(min-width: 768px)"> -->
             <source
-                srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
-                media="(min-width: 280px)"
-                >
-            <img src="./img/hero.jpg" alt="speaker1" class="hero__main-image">
-        </picture>
-          <!-- <img
-                src="./img/mobile/hero.png"
-                alt="hero photo"
-               
-                class="hero__main-image"
-              /> -->
-         
+              srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
+              media="(min-width: 280px)"
+            />
+            <img src="./img/hero.jpg" alt="hero photo" class="hero__main-image" />
+          </picture>
+          
         </div>
       </section>
 
       <section class="benefits">
-        <h2 class="benefits__title lng-directions">
-          Направления тренировок
-        </h2>
+        <h2 class="benefits__title lng-directions">Направления тренировок</h2>
         <div class="container">
           <ul class="list">
             <li class="list__item">
@@ -197,18 +206,43 @@
               />
               <h3 class="list__item-title lng-spine">Спина без боли</h3>
               <ul class="list2">
-                <li class="list2__item lng-spine-1">Укрепление мышц спины</li>
-                <li class="list2__item lng-spine-2">
-                  Устранение различных болей в спине и шейном отделе
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="lng-spine-1">Укрепление мышц спины</p>
                 </li>
-                <li class="list2__item lng-spine-3">
-                  Снижение риска травматизма в повседневной жизни
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="lng-spine-2">
+                    Устранение болей в спине и шейном отделе
+                  </p>
+                </li>
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="lng-spine-3">Снижение риска травматизма</p>
                 </li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
-                  <span class="button-text lng-main-btn2 button-text2">Записаться</span>
-                  <svg class="subscribe-image-btn subscribe-image-btn2" width="20" height="20">
+                  <span class="button-text lng-main-btn2 button-text2"
+                    >Записаться</span
+                  >
+                  <svg
+                    class="subscribe-image-btn subscribe-image-btn2"
+                    width="20"
+                    height="20"
+                  >
                     <use href="./img/sprite.svg#icon-icon-send"></use>
                   </svg>
                 </button>
@@ -225,14 +259,32 @@
               <h3 class="list__item-title">Похудение</h3>
               <ul class="list2">
                 <li class="list2__item">
-                  Улучшение физической формы и преобретение рельефа тела
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="">
+                    Улучшение физической формы и преобретение рельефа тела
+                  </p>
                 </li>
-                <li class="list2__item">Снижение веса и подкожного жира</li>
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="">Снижение веса и подкожного жира</p>
+                </li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
                   <span class="button-text button-text2">Записаться</span>
-                  <svg class="subscribe-image-btn subscribe-image-btn2" width="20" height="20">
+                  <svg
+                    class="subscribe-image-btn subscribe-image-btn2"
+                    width="20"
+                    height="20"
+                  >
                     <use href="./img/sprite.svg#icon-icon-send"></use>
                   </svg>
                 </button>
@@ -249,14 +301,30 @@
               <h3 class="list__item-title">Набор мышечной массы</h3>
               <ul class="list2">
                 <li class="list2__item">
-                  Увеличение мышечной массы и силы мышц
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="">Увеличение мышечной массы и силы мышц</p>
                 </li>
-                <li class="list2__item">Укрепление связочного аппарата</li>
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="">Укрепление связочного аппарата</p>
+                </li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
                   <span class="button-text button-text2">Записаться</span>
-                  <svg class="subscribe-image-btn subscribe-image-btn2" width="20" height="20">
+                  <svg
+                    class="subscribe-image-btn subscribe-image-btn2"
+                    width="20"
+                    height="20"
+                  >
                     <use href="./img/sprite.svg#icon-icon-send"></use>
                   </svg>
                 </button>
@@ -272,17 +340,40 @@
               />
               <h3 class="list__item-title">Зарядка</h3>
               <ul class="list2">
-                <li class="list2__item">Общее улучшение самочувствия</li>
                 <li class="list2__item">
-                  Профилактика различных болей в спине, шейном отделе,
-                  тазобедренном суставе
+                  <svg class="" width="15" height="15">
+                    <use href="./img/sprite.svg#icon-check-icon"></use>
+                  </svg>
+                  <p>Общее улучшение самочувствия</p>
                 </li>
-                <li class="list2__item">Улучшение подвижности в теле</li>
+                <li class="list2__item">
+                  <div>
+                    <svg class="list2__item-check" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p class="">
+                    Профилактика различных болей в спине, шейном отделе,
+                    тазобедренном суставе
+                  </p>
+                </li>
+                <li class="list2__item">
+                  <div>
+                    <svg class="" width="15" height="15">
+                      <use href="./img/sprite.svg#icon-check-icon"></use>
+                    </svg>
+                  </div>
+                  <p>Улучшение подвижности в теле</p>
+                </li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
                   <span class="button-text button-text2">Записаться</span>
-                  <svg class="subscribe-image-btn subscribe-image-btn2" width="20" height="20">
+                  <svg
+                    class="subscribe-image-btn subscribe-image-btn2"
+                    width="20"
+                    height="20"
+                  >
                     <use href="./img/sprite.svg#icon-icon-send"></use>
                   </svg>
                 </button>

@@ -6,7 +6,7 @@
 .benefits__title {
   color: var(--accent-color2);
   text-align: center;
-  margin-bottom: 22px;
+  margin-bottom: 32px;
   font-size: 22px;
   font-weight: 900;
 }
@@ -28,7 +28,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  border: 1px solid var(--accent-color);
+  
   border-radius: 10px;
 }
 
@@ -56,6 +56,7 @@
   align-items: center;
   padding-bottom: 10px;
   border-radius: 10px;
+  border: 1px solid var(--white-color);
 }
 
 // @media screen and (min-width: 768px) {
@@ -86,7 +87,7 @@
 }
 .list__item-image {
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 // @media screen and (min-width: 768px) {
 //   .list__item-box {
@@ -119,23 +120,28 @@
   display: flex;
   justify-content: center;
   color: var(--accent-color2);
+  margin-bottom: 16px;
 }
 .list2 {
-  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   font-size: 16px;
   padding-left: 20px;
-  margin-bottom: 10px;
-  // list-style-image: url(../../img/mobile/download.png);
+  margin-bottom: 16px;
+  
 }
 .list2__item {
-  // display: flex;
-  // justify-content: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
   color: var(--white-color);
   font-size: 15px;
+  
 }
-.list2__item::marker {
-  width: 20px;
-  height: 20px;
+.list2__item-check{
+  fill: var(--accent-color2);
+  background: #211f1f;
 }
 // @media screen and (min-width: 768px) {
 //   .list__item-title {
