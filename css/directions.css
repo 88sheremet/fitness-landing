@@ -68,7 +68,7 @@
 .list__item-title {
   display: flex;
   justify-content: center;
-  color: var(--white-color);
+  color: var(--accent-color2);
 }
 
 .list2 {
