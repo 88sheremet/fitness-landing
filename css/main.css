@@ -500,6 +500,21 @@ main {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
   margin-bottom: 30px;
+  animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+  0% {
+    background-color: var(--accent-color2);
+    box-shadow: 0 0 5px var(--accent-color2);
+  }
+  50% {
+    background-color: var(--accent-color2);
+    box-shadow: 0 0 10px var(--accent-color2);
+  }
+  100% {
+    background-color: var(--accent-color2);
+    box-shadow: 0 0 5px var(--accent-color2);
+  }
 }
 .modal-form-subscribe-btn:active {
   background: var(--accent-color);
@@ -514,11 +529,26 @@ main {
   padding: 2px 20px;
   background: #04070a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 20px;
   border: 1px solid var(--accent-color2);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation: glowing2 1300ms infinite;
+}
+@keyframes glowing2 {
+  0% {
+    background-color: var(--background-color);
+    box-shadow: 0 0 3px var(--accent-color2);
+  }
+  50% {
+    background-color: var(--background-color);
+    box-shadow: 0 0 8px var(--accent-color2);
+  }
+  100% {
+    background-color: var(--background-color);
+    box-shadow: 0 0 3px var(--accent-color2);
+  }
 }
 .subscribe-btn2:active {
   background: var(--accent-color);
