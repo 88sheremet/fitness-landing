@@ -5,6 +5,8 @@ const refs = {
   box2Answer: document.querySelector(".answer-box2"),
   box3: document.querySelector(".question-box3"),
   box3Answer: document.querySelector(".answer-box3"),
+  box4: document.querySelector(".question-box4"),
+  box4Answer: document.querySelector(".answer-box4"),
 };
 
 
@@ -17,6 +19,10 @@ function toggleBox2() {
   function toggleBox3() {
     refs.box3Answer.classList.toggle("hidden-question");
   }
+  function toggleBox4() {
+    refs.box4Answer.classList.toggle("hidden-question");
+  }
 refs.box1.addEventListener("click", toggleBox1);
 refs.box2.addEventListener("click", toggleBox2);
 refs.box3.addEventListener("click", toggleBox3);
+refs.box4.addEventListener("click", toggleBox4);

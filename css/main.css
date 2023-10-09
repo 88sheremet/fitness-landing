@@ -1,7 +1,7 @@
 :root {
   --background-color: #1D1C1C;
   --second-text-color: #757575;
-  --accent-color: #a4742c;
+  --accent-color: #E4AA28;
   --accent-color2: #d1a300;
   --white-color: #FFFFFF;
   --background-page-color: #F5F5F5;
@@ -751,7 +751,7 @@ main {
 
 .team {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bg3.png);
-  background-size: 595px 695px;
+  background-size: 595px 755px;
   background-repeat: no-repeat;
   background-position: left top;
   margin: 0 auto;
@@ -816,23 +816,30 @@ main {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.18;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   color: var(--accent-color2);
 }
 
 .clients__subtitle {
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
 iframe {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
+  border: 1px solid var(--white-color);
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px var(--white-color);
+  -webkit-box-shadow: 4px 4px 14px var(--white-color);
+  box-shadow: 4px 4px 14px var(--white-color);
 }
 
 .clients-list {
@@ -875,6 +882,8 @@ iframe {
   border: 2px solid var(--accent-color2);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 6px;
 }
 
 .question-box {
@@ -896,12 +905,14 @@ iframe {
 .question-text {
   margin-bottom: 15px;
   width: 270px;
+  margin-bottom: auto;
 }
 
 .answer-box {
   background: #211f1f;
   padding: 10px;
-  color: var(--accent-color);
+  color: var(--white-color);
+  color: #FAFAF8;
 }
 
 .hidden-question {
