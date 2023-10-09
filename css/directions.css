@@ -8,8 +8,8 @@
   color: var(--accent-color2);
   text-align: center;
   margin-bottom: 32px;
-  font-size: 22px;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .list {
@@ -79,6 +79,7 @@
   font-size: 16px;
   padding-left: 20px;
   margin-bottom: 16px;
+  margin-right: auto;
 }
 
 .list2__item {
