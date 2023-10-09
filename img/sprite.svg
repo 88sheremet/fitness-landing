@@ -357,5 +357,8 @@
 <path fill="none" stroke="#e4aa28" style="stroke: var(--color1, #e4aa28)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1733" d="M23.745 4.071c-2.882-1.871-6.345-2.636-9.747-2.152s-6.514 2.183-8.761 4.784c-2.246 2.601-3.475 5.927-3.459 9.363s1.276 6.751 3.547 9.33c2.271 2.58 5.398 4.25 8.805 4.702s6.862-0.345 9.726-2.243c2.865-1.898 4.945-4.769 5.857-8.083s0.593-6.845-0.898-9.941"></path>
 <path fill="none" stroke="#e4aa28" style="stroke: var(--color1, #e4aa28)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1733" d="M9.905 15.153l5.541 5.587 14.776-14.9"></path>
 </symbol>
+<symbol id="icon-arrow-icon" viewBox="0 0 32 32">
+<path fill="none" stroke="#e4aa28" style="stroke: var(--color1, #e4aa28)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8488" d="M29.714 26.286v-24M29.714 2.286h-24M29.714 2.286l-27.429 27.429"></path>
+</symbol>
 </defs>
 </svg>
