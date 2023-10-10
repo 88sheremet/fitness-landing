@@ -722,10 +722,6 @@ main {
   width: 357px;
 }
 
-.work-list-item1 {
-  margin-bottom: 13px;
-}
-
 .work-list-item2 {
   margin-bottom: 38px;
   margin-top: auto;
@@ -912,7 +908,7 @@ iframe {
   background: #211f1f;
   padding: 10px;
   color: var(--white-color);
-  color: #FAFAF8;
+  color: #fafaf8;
 }
 
 .hidden-question {

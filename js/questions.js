@@ -9,19 +9,18 @@ const refs = {
   box4Answer: document.querySelector(".answer-box4"),
 };
 
-
 function toggleBox1() {
   refs.box1Answer.classList.toggle("hidden-question");
 }
 function toggleBox2() {
-    refs.box2Answer.classList.toggle("hidden-question");
-  }
-  function toggleBox3() {
-    refs.box3Answer.classList.toggle("hidden-question");
-  }
-  function toggleBox4() {
-    refs.box4Answer.classList.toggle("hidden-question");
-  }
+  refs.box2Answer.classList.toggle("hidden-question");
+}
+function toggleBox3() {
+  refs.box3Answer.classList.toggle("hidden-question");
+}
+function toggleBox4() {
+  refs.box4Answer.classList.toggle("hidden-question");
+}
 refs.box1.addEventListener("click", toggleBox1);
 refs.box2.addEventListener("click", toggleBox2);
 refs.box3.addEventListener("click", toggleBox3);
