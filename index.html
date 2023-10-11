@@ -27,6 +27,14 @@
   <body>
     <header class="page-header">
       <div class="container page-header__container">
+        <div class="custom-select">
+          <select name="lang" id="select" class="change-lang">
+            <option value="ua">UA</option>
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+
         <nav class="menu">
           <ul class="menu-list">
             <li class="menu-list__item">
@@ -46,13 +54,6 @@
           </ul>
         </nav>
 
-        <div class="custom-select">
-          <select name="lang" id="select" class="change-lang">
-            <option value="ua">UA</option>
-            <option value="ru" selected>RU</option>
-            <option value="en">EN</option>
-          </select>
-        </div>
         <button type="button" class="mobile-menu-btn" data-menu-open>
           <svg class="mobile-menu-btn__icon" width="44" height="44">
             <use href="./img/sprite.svg#icon-burger"></use>
@@ -177,12 +178,14 @@
             </button>
           </a>
           <picture>
-            <!-- <source
-                srcset="./img/our-team-opt/desktop/desk-1m.jpg 1x, ./img/our-team-opt/desktop/desk-1m@2x.jpg 2x"
-                media="(min-width: 1200px)">
             <source
-                srcset="./img/our-team-opt/tablet/tabl-1m.jpg 1x, ./img/our-team-opt/tablet/tabl-1m@2x.jpg 2x"
-                media="(min-width: 768px)"> -->
+              srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
+              media="(min-width: 768px)"
+            />
             <source
               srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
               media="(min-width: 280px)"
@@ -279,12 +282,16 @@
                       <use href="./img/sprite.svg#icon-check-icon"></use>
                     </svg>
                   </div>
-                  <p class="lng-lose-weight3">Снижение веса и процента подкожного жира</p>
+                  <p class="lng-lose-weight3">
+                    Снижение веса и процента подкожного жира
+                  </p>
                 </li>
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
-                  <span class="button-text button-text2 lng-lose-weight4">Записаться</span>
+                  <span class="button-text button-text2 lng-lose-weight4"
+                    >Записаться</span
+                  >
                   <svg
                     class="subscribe-image-btn subscribe-image-btn2"
                     width="20"
@@ -303,7 +310,9 @@
                 width="180"
                 class="list__item-image"
               />
-              <h3 class="list__item-title lng-add-weight1">Набор мышечной массы</h3>
+              <h3 class="list__item-title lng-add-weight1">
+                Набор мышечной массы
+              </h3>
               <ul class="list2">
                 <li class="list2__item">
                   <div>
@@ -311,7 +320,9 @@
                       <use href="./img/sprite.svg#icon-check-icon"></use>
                     </svg>
                   </div>
-                  <p class="lng-add-weight2">Увеличение мышечной массы и силы мышц</p>
+                  <p class="lng-add-weight2">
+                    Увеличение мышечной массы и силы мышц
+                  </p>
                 </li>
                 <li class="list2__item">
                   <div>
@@ -324,7 +335,9 @@
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
-                  <span class="button-text button-text2 lng-add-weight4">Записаться</span>
+                  <span class="button-text button-text2 lng-add-weight4"
+                    >Записаться</span
+                  >
                   <svg
                     class="subscribe-image-btn subscribe-image-btn2"
                     width="20"
@@ -373,7 +386,9 @@
               </ul>
               <a href="https://t.me/sheremetaleks" class="link">
                 <button class="subscribe-btn2">
-                  <span class="button-text button-text2 lng-warm-up5">Записаться</span>
+                  <span class="button-text button-text2 lng-warm-up5"
+                    >Записаться</span
+                  >
                   <svg
                     class="subscribe-image-btn subscribe-image-btn2"
                     width="20"
@@ -443,7 +458,9 @@
                   height="54"
                   class="list-image"
                 />
-                <p class="work-list-item4 lng-about5">Рекомендации по питанию.</p>
+                <p class="work-list-item4 lng-about5">
+                  Рекомендации по питанию.
+                </p>
               </li>
               <li class="work-list__item">
                 <img
@@ -501,7 +518,8 @@
                     </svg>
                   </div>
                   <p class="lng-me5">
-                    Миофасциальный релиз (самомассаж при помощи простого оборудования)
+                    Миофасциальный релиз (самомассаж при помощи простого
+                    оборудования)
                   </p>
                 </li>
                 <li class="team__list2__item">
@@ -539,7 +557,9 @@
       <section class="section">
         <div class="container">
           <h2 class="clients__title lng-clients1">Как проходят тренировки</h2>
-          <h3 class="clients__subtitle lng-clients2">Тренировки в прямом эфире</h3>
+          <h3 class="clients__subtitle lng-clients2">
+            Тренировки в прямом эфире
+          </h3>
           <iframe
             width="300"
             height="280"
@@ -550,7 +570,9 @@
             allowfullscreen
           ></iframe>
 
-          <h3 class="clients__subtitle lng-clients3">Дистанционные тренировки</h3>
+          <h3 class="clients__subtitle lng-clients3">
+            Дистанционные тренировки
+          </h3>
           <iframe
             width="300"
             height="280"
