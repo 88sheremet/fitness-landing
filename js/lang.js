@@ -209,4 +209,84 @@ const langArr = {
         "en":"Plyometrics (workouts consisting of jumping movements)",
         "ua":"Пліометрика (тренування, що складаються зі стрибкових рухів)"
     },
+    "clients1":{
+        "ru":"Как проходят тренировки",
+        "en":"How the training goes",
+        "ua":"Як проходять тренування"
+    },
+    "clients2":{
+        "ru":"Тренировки в прямом эфире",
+        "en":"Live training",
+        "ua":"Тренування у прямому ефірі"
+    },
+    "clients3":{
+        "ru":"Дистанционные тренировки",
+        "en":"Remote training",
+        "ua":"Дистанційні тренування"
+    },
+    "questions1":{
+        "ru":"Часто задаваемые вопросы",
+        "en":"FAQ",
+        "ua":"Поширені запитання"
+    },
+    "questions2":{
+        "ru":"В каком приложении будут проходить тренировки?",
+        "en":"What application will the training be used in?",
+        "ua":"В якому додатку проходитимуть тренування?"
+    },
+    "questions3":{
+        "ru":"- Тренировки проходят в приложении Zoom",
+        "en":"- Trainings take place in the Zoom application",
+        "ua":"- Тренування проходять у додатку Zoom"
+    },
+    "questions4":{
+        "ru":"Сколько времени длиться тренировка?",
+        "en":"How long does the training last?",
+        "ua":"Скільки часу триває тренування?"
+    },
+    "questions5":{
+        "ru":"- Длительность занятия формируеться в зависимости от ваших запросов и свободного времени. Есть три формата: 30 минут, 45 минут, 60 минут",
+        "en":"- The duration of the lesson is determined depending on your requests and free time. There are three formats: 30 minutes, 45 minutes, 60 minutes",
+        "ua":"- Тривалість заняття формується залежно від ваших запитів та вільного часу. Є три формати: 30 хвилин, 45 хвилин, 60 хвилин"
+    },
+    "questions6":{
+        "ru":"Какое оборудование нужно для занятий?",
+        "en":"What equipment is needed for classes?",
+        "ua":"Яке обладнання потрібне для занять?"
+    },
+    "questions7":{
+        "ru":"- В домашних условиях: для начального этапа достаточно упражнений с собственным весом. В дальнейшем будут нужны фитнес-резинки и гантели <br/>- В тренажерном зале: все доступное оборудование",
+        "en":"- At home: for the initial stage, exercises with your own weight are enough. In the future, you will need fitness bands and dumbbells <br/>- In the gym: all available equipment",
+        "ua":"- У домашніх умовах: для початкового етапу достатньо вправ із власною вагою. Надалі будуть потрібні фітнес-амортизатори та гантелі <br/>- У тренажерному залі: все доступне обладнання"
+    },
+    "questions8":{
+        "ru":"Можно ли начать тренировки не имея предыдущего опыта тренировок?",
+        "en":"Is it possible to start training without previous training experience?",
+        "ua":"Чи можна почати тренування без попереднього досвіду тренувань?"
+    },
+    "questions9":{
+        "ru":"- Программа строиться с учетом индивидуальных особенностей человека, а также предыдущего опыта занятий",
+        "en":"- The program is built taking into account the individual characteristics of the person, as well as previous training experience",
+        "ua":"- Програма будуватиметься з урахуванням індивідуальних особливостей людини, а також попереднього досвіду занять"
+    },
+    "burger1":{
+        "ru":"Главная",
+        "en":"Main",
+        "ua":"Головна"
+    },
+    "burger2":{
+        "ru":"Программы",
+        "en":"Programs",
+        "ua":"Програми"
+    },
+    "burger3":{
+        "ru":"Обо мне",
+        "en":"About me",
+        "ua":"Про мене"
+    },
+    "burger4":{
+        "ru":"Вопросы",
+        "en":"Questions",
+        "ua":"Питання"
+    },
 }
