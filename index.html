@@ -29,9 +29,9 @@
       <div class="container page-header__container">
         <div class="custom-select">
           <select name="lang" id="select" class="change-lang">
-            <option value="ua">UA</option>
-            <option value="ru" selected>RU</option>
-            <option value="en">EN</option>
+            <option value="ua" class="option">UA</option>
+            <option value="ru" class="option"selected>RU</option>
+            <option value="en" class="option">EN</option>
           </select>
         </div>
 
@@ -161,25 +161,28 @@
 
     <main>
       <section id="main" class="hero">
-        <div class="container">
-          <h2 class="hero__title2 lng-hero__title">Онлайн фитнес тренер</h2>
-          <h1 class="hero__title lng-hero__title2">Александр Шеремет</h1>
-          <h2 class="hero__title3 lng-hero__title3">
-            Стань лучшей версией себя!
-          </h2>
-          <a href="https://t.me/sheremetaleks" class="link">
-            <button class="modal-form-subscribe-btn">
-              <span class="button-text lng-main-btn"
-                >Записаться на тренировку</span
-              >
-              <svg class="subscribe-image-btn" width="20" height="20">
-                <use href="./img/sprite.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </a>
+        <div class="container hero-content">
+          <div class="">
+            <h2 class="hero__title2 lng-hero__title">Онлайн фитнес тренер</h2>
+            <h1 class="hero__title lng-hero__title2">Александр Шеремет</h1>
+            <h2 class="hero__title3 lng-hero__title3">
+              Стань лучшей версией себя!
+            </h2>
+            <a href="https://t.me/sheremetaleks" class="link">
+              <button class="modal-form-subscribe-btn">
+                <span class="button-text lng-main-btn"
+                  >Записаться на тренировку</span
+                >
+                <svg class="subscribe-image-btn" width="20" height="20">
+                  <use href="./img/sprite.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </a>
+          </div>
+         
           <picture>
             <source
-              srcset="./img/mobile/hero.png 1x, ./img/mobile/hero2.png 2x"
+              srcset="./img/desctop/hero-desk.png 1x, ./img/desctop/hero-desk.png 2x"
               media="(min-width: 1200px)"
             />
             <source
