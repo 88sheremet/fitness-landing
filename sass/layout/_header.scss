@@ -261,9 +261,7 @@ select {
     display: none;
   }
 
-  .mobile-menu-btn {
-    display: none;
-  }
+ 
   .page-header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -280,6 +278,9 @@ select {
     position: absolute;
     background: transparent;
     top: 0;
+  }
+  .mobile-menu-btn {
+    display: none;
   }
   .menu {
     display: flex;

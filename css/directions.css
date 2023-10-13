@@ -19,6 +19,10 @@
   border-radius: 10px;
 }
 
+.mt {
+  margin-top: auto;
+}
+
 .list__item {
   width: 450px;
   background: #211f1f;
@@ -29,6 +33,8 @@
   padding-bottom: 10px;
   border-radius: 10px;
   border: 1px solid var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list__item-box {
@@ -104,4 +110,22 @@
 
 .subscribe2 {
   min-width: 135px;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits__title {
+    font-size: 26px;
+  }
+  .list__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits__title {
+    font-size: 28px;
+  }
+  .list__item {
+    width: 450px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=directions.css.map */

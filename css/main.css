@@ -286,9 +286,6 @@ select {
     column-gap: 40px;
     display: none;
   }
-  .mobile-menu-btn {
-    display: none;
-  }
   .page-header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -304,6 +301,9 @@ select {
     position: absolute;
     background: transparent;
     top: 0;
+  }
+  .mobile-menu-btn {
+    display: none;
   }
   .menu {
     display: flex;
@@ -584,8 +584,8 @@ main {
   justify-content: center;
   text-align: center;
   min-width: 165px;
-  height: 35px;
-  padding: 2px 20px;
+  height: 38px;
+  padding: 3px 20px;
   background: #04070a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -646,6 +646,17 @@ main {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 470px), (min-resolution: 192dpi) and (min-width: 470px), (min-resolution: 2dppx) and (min-width: 470px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob-470.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/bg-hero-tablet.png");
+    background-size: 1000px 474px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/bg-hero-tablet2x.png");
   }
 }
 @media (min-width: 1200px) {
@@ -747,7 +758,7 @@ main {
     gap: 200px;
   }
   .button-text {
-    font-size: 22px;
+    font-size: 21px;
     margin-right: 10px;
   }
 }
@@ -777,6 +788,10 @@ main {
   border-radius: 10px;
 }
 
+.mt {
+  margin-top: auto;
+}
+
 .list__item {
   width: 450px;
   background: #211f1f;
@@ -787,6 +802,8 @@ main {
   padding-bottom: 10px;
   border-radius: 10px;
   border: 1px solid var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list__item-box {
@@ -864,6 +881,23 @@ main {
   min-width: 135px;
 }
 
+@media screen and (min-width: 768px) {
+  .benefits__title {
+    font-size: 26px;
+  }
+  .list__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits__title {
+    font-size: 28px;
+  }
+  .list__item {
+    width: 450px;
+    font-size: 16px;
+  }
+}
 .work {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bg2.png);
   background-size: 861px 516px;
