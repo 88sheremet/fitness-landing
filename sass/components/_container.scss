@@ -20,7 +20,17 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-left: 100px;
-  padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1400px;
   }
 }

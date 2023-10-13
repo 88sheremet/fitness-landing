@@ -7,32 +7,11 @@
   z-index: 11;
 }
 
-// @media screen and (min-width: 768px) {
-//   .page-header {
-//     padding-top: 21px;
-//     padding-bottom: 21px;
-//   }
-// }
-
-// @media screen and (min-width: 1200px) {
-//   .page-header {
-//     padding-top: 24px;
-//     padding-bottom: 25px;
-//   }
-// }
-
 .page-header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-// @media screen and (min-width: 768px) {
-//   .page-header__container {
-//     align-items: center;
-//     justify-content: center;
-//   }
-// }
 
 .menu {
   display: flex;
@@ -48,31 +27,6 @@
   text-decoration: none;
 }
 
-.slogan {
-  color: var(--accent-color);
-}
-
-.slogan-logo {
-  color: var(--slogan-logo-color);
-}
-
-.slogan-text {
-  color: var(--white-color);
-}
-
-// .menu-list {
-//   display: none;
-// }
-
-// .menu-list {
-// @media (min-width: 768px) {
-//   .menu-list {
-//     display: flex;
-//     align-items: center;
-//     column-gap: 50px;
-//   }
-// }
-
 .mobile-menu-btn {
   background-color: transparent;
   border: none;
@@ -81,11 +35,6 @@
   fill: var(--accent-color2);
 }
 
-// .mobile-menu-btn {
-//   @media (min-width: 768px) {
-//     display: none;
-//   }
-// }
 .menu-list {
   display: flex;
   gap: 15px;
@@ -120,48 +69,10 @@
   display: none;
 }
 
-// @media (min-width: 768px) {
-//   .nav {
-//     display: flex;
-//     column-gap: 50px;
-//     margin-left: auto;
-//     justify-content: center;
-
-//     flex-direction: column;
-//     row-gap: 10px;
-
-//     &:hover,
-//     &:focus {
-//       fill: var(--accent-color);
-//     }
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .nav {
-//     flex-direction: row;
-//     column-gap: 50px;
-//     margin-left: auto;
-//     justify-content: center;
-//   }
-// }
-
 .nav__link {
   display: flex;
   align-items: center;
 }
-
-// @media (min-width: 768px) {
-//   .nav__link {
-//     align-items: center;
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .nav__link {
-//     justify-content: center;
-//   }
-// }
 
 .nav__items {
   font-weight: 500;
@@ -261,7 +172,6 @@ select {
     display: none;
   }
 
- 
   .page-header {
     padding-top: 10px;
     padding-bottom: 10px;

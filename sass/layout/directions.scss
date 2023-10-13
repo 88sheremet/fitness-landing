@@ -11,12 +11,6 @@
   font-weight: 700;
 }
 
-// @media screen and (min-width: 1200px) {
-//   .benefits {
-//     padding-top: 94px;
-//   }
-// }
-
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -24,23 +18,9 @@
 
   border-radius: 10px;
 }
-.mt{
+.mt {
   margin-top: auto;
 }
-// @media screen and (min-width: 768px) {
-//   .list {
-//     display: flex;
-//     gap: 30px;
-//     flex-wrap: wrap;
-//   }
-// }
-
-// @media screen and (min-width: 1200px) {
-//   .list {
-//     display: flex;
-//     column-gap: 30px;
-//   }
-// }
 
 .list__item {
   width: 450px;
@@ -74,17 +54,6 @@
   margin-bottom: 16px;
   border-radius: 0px 0px 10px 10px;
 }
-// @media screen and (min-width: 768px) {
-//   .list__item-box {
-//     width: 354px;
-//   }
-// }
-
-// @media screen and (min-width: 1200px) {
-//   .list__item-box {
-//     width: 270px;
-//   }
-// }
 
 .list-box-svg {
   margin-top: 25px;
@@ -127,17 +96,6 @@
   fill: var(--accent-color2);
   background: #211f1f;
 }
-// @media screen and (min-width: 768px) {
-//   .list__item-title {
-//     display: block;
-//   }
-// }
-
-// @media screen and (min-width: 1200px) {
-//   .list__item-title {
-//     display: block;
-//   }
-// }
 
 .list__item-text {
   font-size: 14px;
@@ -158,12 +116,6 @@
   }
 }
 
-// @media screen and (min-width: 868px) {
-  
-//   .list__item {
-//     width: 360px;
-//   }
-// }
 @media screen and (min-width: 1200px) {
   .benefits__title {
     font-size: 28px;

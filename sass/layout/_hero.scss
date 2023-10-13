@@ -119,37 +119,6 @@ main {
   text-align: center;
 }
 
-// @media screen and (min-width: 1200px) {
-//   .hero__title {
-//     font-size: 44px;
-//     line-height: 1.37;
-//   }
-// }
-
-// .hero__button {
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.88;
-//   letter-spacing: 0.06em;
-//   font-family: inherit;
-//   background: var(--accent-color2);
-//   color: var(--white-color);
-//   cursor: pointer;
-//   padding: 5px 10px;
-//   display: block;
-//   min-width: 200px;
-//   margin: 0 auto;
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//   border-radius: 4px;
-//   border: none;
-//   transition-property: background-color;
-//   transition-duration: 250ms;
-//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-//   &:active {
-//     background: var(--accent-color);
-//   }
-// }
 .modal-form-subscribe-btn {
   display: flex;
   justify-content: center;
@@ -242,11 +211,6 @@ main {
 .subscribe-image-btn2 {
   fill: var(--accent-color2);
 }
-// @media screen and (min-width: 1200px) {
-//   .hero__button {
-//     min-width: 216px;
-//   }
-// }
 
 @media screen and (min-width: 470px) {
   .hero {
@@ -256,9 +220,6 @@ main {
       ),
       url("../img/mobile/bg12-mob-470.png");
     background-size: 800px 474px;
-    // background-repeat: no-repeat;
-    // background-position: left top;
-    // margin: 0 auto;
   }
 }
 
@@ -282,9 +243,6 @@ main {
       ),
       url("../img/tablet/bg-hero-tablet.png");
     background-size: 1000px 474px;
-    // background-repeat: no-repeat;
-    // background-position: left top;
-    // margin: 0 auto;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
@@ -406,9 +364,6 @@ main {
     font-size: 21px;
     margin-right: 10px;
   }
-  // .subscribe-btn2 {
-  //   padding: 12px 20px;
-  // }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
   (min-resolution: 192dpi) and (min-width: 1200px),
