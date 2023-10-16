@@ -1195,31 +1195,36 @@ iframe {
   box-shadow: 4px 4px 14px var(--white-color);
 }
 
-.clients-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 30px;
+@media screen and (min-width: 500px) {
+  iframe {
+    width: 480px;
+    height: 400px;
+  }
 }
-
-.clients-list {
-  flex-wrap: wrap;
-  gap: 30px;
+@media (min-width: 768px) {
+  .clients__title {
+    font-size: 26px;
+  }
+  .clients__subtitle {
+    font-size: 22px;
+  }
+  iframe {
+    width: 680px;
+    height: 580px;
+  }
 }
-
-.clients-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 210px;
-  height: 92px;
-  background-color: var(--white-color);
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@media (min-width: 1200px) {
+  .clients__title {
+    font-size: 28px;
+  }
+  .clients__subtitle {
+    font-size: 24px;
+  }
+  iframe {
+    width: 700px;
+    height: 600px;
+  }
 }
-
 .questions__title {
   font-weight: 700;
   font-size: 26px;
