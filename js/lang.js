@@ -209,6 +209,11 @@ const langArr = {
         "en":"Plyometrics (workouts consisting of jumping movements)",
         "ua":"Пліометрика (тренування, що складаються зі стрибкових рухів)"
     },
+    "me9":{
+        "ru":"Посмотреть сертификаты",
+        "en":"View certificates",
+        "ua":"Переглянути сертифікати"
+    },
     "clients1":{
         "ru":"Как проходят тренировки",
         "en":"How the training goes",

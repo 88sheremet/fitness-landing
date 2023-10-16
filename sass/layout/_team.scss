@@ -4,7 +4,7 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/mobile/bg3.png);
-  background-size: 595px 755px;
+  background-size: 595px 760px;
   background-repeat: no-repeat;
   background-position: left top;
   margin: 0 auto;
@@ -77,6 +77,10 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+.about-link{
+  position: absolute;
+  top: 2900px;
 }
 @media screen and (min-width: 370px) {
   .team-image {

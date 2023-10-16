@@ -5,18 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Онлайн фитнес тренер</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -59,25 +53,6 @@
             <use href="./img/sprite.svg#icon-burger"></use>
           </svg>
         </button>
-
-        <!-- <ul class="nav"> -->
-        <!-- <li class="nav__link">
-            <a href="mailto:info@devstudio.com" class="nav__items">
-              <svg class="contact-list" width="16" height="12">
-                <use href="./img/sprite.svg#icon-envelope-2"></use>
-              </svg>
-              <span class="nav-info">info@devstudio.com</span></a
-            >
-          </li> -->
-        <!-- <li class="nav__link">
-            <a href="tel:+380961111111" class="nav__items">
-              <svg class="contact-list" width="10" height="16">
-                <use href="./img/sprite.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul> -->
       </div>
 
       <div class="mobile-menu" data-menu>
@@ -160,7 +135,8 @@
     </header>
 
     <main>
-      <section id="main" class="hero">
+      <section class="hero">
+        <p id="main" class="main-link"></p>
         <div class="container hero-content">
           <div class="">
             <h2 class="hero__title2 lng-hero__title">Онлайн фитнес тренер</h2>
@@ -179,7 +155,7 @@
               </button>
             </a>
           </div>
-
+          <p id="programs" class="programs-link"></p>
           <picture>
             <source
               srcset="
@@ -200,10 +176,9 @@
               src="./img/hero.jpg"
               alt="hero photo"
               class="hero__main-image"
-              id="programs"
             />
           </picture>
-          <!-- <div id="programs"></div> -->
+          <!-- <p id="programs"></p> -->
         </div>
       </section>
 
@@ -476,7 +451,7 @@
                   height="54"
                   class="list-image"
                 />
-                <p id="about" class="work-list-item5 lng-about6">
+                <p class="work-list-item5 lng-about6">
                   Постоянная обратная связь и ответы на ваши вопросы.
                 </p>
               </li>
@@ -486,6 +461,7 @@
       </section>
 
       <section class="team section">
+        <p id="about" class="about-link"></p>
         <div class="container">
           <h2 class="team__title lng-me1">Обо мне</h2>
           <div class="team__content">
@@ -555,11 +531,6 @@
                   </p>
                 </li>
                 <li class="team__list2__item">
-                  <!-- <div>
-                    <svg class="" width="15" height="15">
-                      <use href="./img/sprite.svg#icon-arrow-icon"></use>
-                    </svg>
-                  </div> -->
                   <a class="lng-me9" data-diploms-open>
                     Посмотреть сертификаты
                   </a>
@@ -649,38 +620,43 @@
         </div>
       </section>
 
-      <section class="section clients">
+      <section class="clients">
         <div class="container">
           <h2 class="clients__title lng-clients1">Как проходят тренировки</h2>
-          <h3 class="clients__subtitle lng-clients2">
-            Тренировки в прямом эфире
-          </h3>
-          <iframe
-            width="300"
-            height="280"
-            src="https://www.youtube.com/embed/XO9GqbvT8uU?si=jOxO7RyA-697p7mj"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-
-          <h3 class="clients__subtitle lng-clients3">
-            Дистанционные тренировки
-          </h3>
-          <iframe
-            width="300"
-            height="280"
-            src="https://www.youtube.com/embed/4WGB-U_E5xs?si=T21gvYvP4oPuk_ji"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <ul class="clients__list">
+            <li>
+              <h3 class="clients__subtitle lng-clients2">
+                Тренировки в прямом эфире
+              </h3>
+              <iframe
+                width="300"
+                height="280"
+                src="https://www.youtube.com/embed/XO9GqbvT8uU?si=jOxO7RyA-697p7mj"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li>
+              <h3 class="clients__subtitle lng-clients3">
+                Дистанционные тренировки
+              </h3>
+              <iframe
+                width="300"
+                height="280"
+                src="https://www.youtube.com/embed/4WGB-U_E5xs?si=T21gvYvP4oPuk_ji"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="questions">
+      <section class="questions section">
         <div class="container">
           <h2 id="questions" class="questions__title lng-questions1">
             Часто задаваемые вопросы

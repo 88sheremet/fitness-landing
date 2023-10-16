@@ -4,7 +4,6 @@ main {
 
 @media screen and (min-width: 280px) {
   .hero {
-    // padding-bottom: 190px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -22,7 +21,14 @@ main {
     margin-bottom: 160px;
   }
 }
-
+.programs-link{
+  position: absolute;
+  top: 480px;
+}
+.main-link{
+  position: absolute;
+  top: 1px; 
+}
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
   (min-resolution: 192dpi) and (min-width: 280px),
   (min-resolution: 2dppx) and (min-width: 280px) {
@@ -38,53 +44,6 @@ main {
   display: flex;
   flex-direction: column;
 }
-// @media screen and (min-width: 768px) {
-//   .hero {
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//       ),
-//       url("../img/tablet/main-bg.png");
-//     background-size: 768px 400px;
-//   }
-// }
-
-// @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-//   (min-resolution: 192dpi) and (min-width: 768px),
-//   (min-resolution: 2dppx) and (min-width: 768px) {
-//   .hero {
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//       ),
-//       url("../img/tablet/Header-tabletimg@2x.jpg");
-//   }
-// }
-
-// @media screen and (min-width: 1200px) {
-//   .hero {
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//       ),
-//       url("../img/Img\(2\).jpg");
-//     background-size: 1600px 600px;
-//     padding-top: 200px;
-//     padding-bottom: 200px;
-//   }
-// }
-
-// @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-//   (min-resolution: 192dpi) and (min-width: 1200px),
-//   (min-resolution: 2dppx) and (min-width: 1200px) {
-//   .hero {
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//       ),
-//       url("../img/desctop/Img@2x.jpg");
-//   }
-// }
 
 .hero__title {
   font-weight: 900;
@@ -176,15 +135,15 @@ main {
   @keyframes glowing2 {
     0% {
       background-color: var(--background-color);
-      box-shadow: 0 0 3px var(--accent-color2);
+      box-shadow: 0 0 4px var(--accent-color2);
     }
     50% {
       background-color: var(--background-color);
-      box-shadow: 0 0 8px var(--accent-color2);
+      box-shadow: 0 0 9px var(--accent-color2);
     }
     100% {
       background-color: var(--background-color);
-      box-shadow: 0 0 3px var(--accent-color2);
+      box-shadow: 0 0 4px var(--accent-color2);
     }
   }
   &:active {
@@ -277,8 +236,8 @@ main {
     margin-bottom: 323px;
     margin-left: auto;
     margin-right: 0;
-    width: 410px;
-    height: 445px;
+    width: 415px;
+    height: 450px;
     margin-top: 140px;
   }
   .hero__title {
@@ -310,7 +269,7 @@ main {
     line-height: 1.42;
     letter-spacing: 0.06em;
     color: var(--white-color);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     text-align: left;
   }
   .modal-form-subscribe-btn {
@@ -335,15 +294,15 @@ main {
     @keyframes glowing {
       0% {
         background-color: var(--accent-color2);
-        box-shadow: 0 0 7px var(--accent-color2);
+        box-shadow: 0 0 8px var(--accent-color2);
       }
       50% {
         background-color: var(--accent-color2);
-        box-shadow: 0 0 14px var(--accent-color2);
+        box-shadow: 0 0 15px var(--accent-color2);
       }
       100% {
         background-color: var(--accent-color2);
-        box-shadow: 0 0 7px var(--accent-color2);
+        box-shadow: 0 0 8px var(--accent-color2);
       }
     }
 
@@ -358,11 +317,15 @@ main {
   .hero-content {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    justify-content: space-between;
   }
   .button-text {
     font-size: 21px;
     margin-right: 10px;
+  }
+  .programs-link{
+    position: absolute;
+    top: 700px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),

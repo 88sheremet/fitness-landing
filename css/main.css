@@ -495,6 +495,16 @@ main {
     margin-bottom: 160px;
   }
 }
+.programs-link {
+  position: absolute;
+  top: 480px;
+}
+
+.main-link {
+  position: absolute;
+  top: 1px;
+}
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob.png");
@@ -596,15 +606,15 @@ main {
 @keyframes glowing2 {
   0% {
     background-color: var(--background-color);
-    box-shadow: 0 0 3px var(--accent-color2);
+    box-shadow: 0 0 4px var(--accent-color2);
   }
   50% {
     background-color: var(--background-color);
-    box-shadow: 0 0 8px var(--accent-color2);
+    box-shadow: 0 0 9px var(--accent-color2);
   }
   100% {
     background-color: var(--background-color);
-    box-shadow: 0 0 3px var(--accent-color2);
+    box-shadow: 0 0 4px var(--accent-color2);
   }
 }
 .subscribe-btn2:active {
@@ -674,8 +684,8 @@ main {
     margin-bottom: 323px;
     margin-left: auto;
     margin-right: 0;
-    width: 410px;
-    height: 445px;
+    width: 415px;
+    height: 450px;
     margin-top: 140px;
   }
   .hero__title {
@@ -707,7 +717,7 @@ main {
     line-height: 1.42;
     letter-spacing: 0.06em;
     color: var(--white-color);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     text-align: left;
   }
   .modal-form-subscribe-btn {
@@ -732,15 +742,15 @@ main {
   @keyframes glowing {
     0% {
       background-color: var(--accent-color2);
-      box-shadow: 0 0 7px var(--accent-color2);
+      box-shadow: 0 0 8px var(--accent-color2);
     }
     50% {
       background-color: var(--accent-color2);
-      box-shadow: 0 0 14px var(--accent-color2);
+      box-shadow: 0 0 15px var(--accent-color2);
     }
     100% {
       background-color: var(--accent-color2);
-      box-shadow: 0 0 7px var(--accent-color2);
+      box-shadow: 0 0 8px var(--accent-color2);
     }
   }
   .modal-form-subscribe-btn:active {
@@ -753,11 +763,15 @@ main {
   .hero-content {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    justify-content: space-between;
   }
   .button-text {
     font-size: 21px;
     margin-right: 10px;
+  }
+  .programs-link {
+    position: absolute;
+    top: 700px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
@@ -984,7 +998,7 @@ main {
 }
 .team {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/bg3.png);
-  background-size: 595px 755px;
+  background-size: 595px 760px;
   background-repeat: no-repeat;
   background-position: left top;
   margin: 0 auto;
@@ -1067,6 +1081,11 @@ main {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+
+.about-link {
+  position: absolute;
+  top: 2900px;
 }
 
 @media screen and (min-width: 370px) {
@@ -1165,6 +1184,10 @@ main {
     height: 350px;
   }
 }
+.clients {
+  padding-top: 32px;
+}
+
 .clients__title {
   font-weight: 700;
   text-align: center;
@@ -1195,6 +1218,13 @@ iframe {
   box-shadow: 4px 4px 14px var(--white-color);
 }
 
+.clients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-around;
+}
+
 @media screen and (min-width: 500px) {
   iframe {
     width: 370px;
@@ -1209,8 +1239,12 @@ iframe {
     font-size: 22px;
   }
   iframe {
-    width: 520px;
+    width: 340px;
     height: 420px;
+  }
+  .clients__list {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
@@ -1221,8 +1255,11 @@ iframe {
     font-size: 24px;
   }
   iframe {
-    width: 580px;
+    width: 520px;
     height: 460px;
+  }
+  .clients__list {
+    gap: 40px;
   }
 }
 .questions__title {
