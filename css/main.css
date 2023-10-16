@@ -1047,6 +1047,28 @@ main {
   align-items: center;
 }
 
+.lng-me8 {
+  margin-bottom: 20px;
+}
+
+.lng-me9 {
+  color: var(--accent-color2);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.diplom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.diplom-image {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 370px) {
   .team-image {
     width: 345px;
@@ -1061,6 +1083,22 @@ main {
   .team-image {
     width: 360px;
     height: 245px;
+  }
+  .diplom-image {
+    width: 430px;
+    height: 330px;
+  }
+  .d2 {
+    width: 400px;
+    height: 440px;
+  }
+  .d3 {
+    width: 430px;
+    height: 360px;
+  }
+  .d4 {
+    width: 410px;
+    height: 460px;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1086,6 +1124,22 @@ main {
     flex-direction: row;
     gap: 30px;
     justify-content: space-between;
+  }
+  .diplom-image {
+    width: 630px;
+    height: 530px;
+  }
+  .d2 {
+    width: 510px;
+    height: 570px;
+  }
+  .d3 {
+    width: 630px;
+    height: 390px;
+  }
+  .d4 {
+    width: 560px;
+    height: 680px;
   }
 }
 @media screen and (min-width: 1200px) {
