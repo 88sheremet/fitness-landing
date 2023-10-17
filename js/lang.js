@@ -65,9 +65,14 @@ const langArr = {
         "ua":"Усунення болів у спині та шийному відділі"
     },
     "spine-3":{
-        "ru":"Снижение риска травматизма",
-        "en":"Reducing the risk of injury",
-        "ua":"Зниження ризику травматизму"
+        "ru":"Снижение риска травматизма в повседневной жизни",
+        "en":"Reducing the risk of injury in everyday life",
+        "ua":"Зниження ризику травматизму в повсякденному житті"
+    },
+    "spine-4":{
+        "ru":"Повышение запаса прочности позвоночника и суставов",
+        "en":"Increasing the safety margin of the spine and joints",
+        "ua":"Підвищення запасу міцності хребта та суглобів"
     },
     "main-btn2":{
         "ru":"Записаться",
@@ -90,6 +95,11 @@ const langArr = {
         "ua":"Зниження ваги та відсотка підшкірного жиру"
     },
     "lose-weight4":{
+        "ru":"Повышение выносливости",
+        "en":"Increased stamina",
+        "ua":"Підвищення витривалості"
+    },
+    "lose-weight5":{
         "ru":"Записаться",
         "en":"Sign up for training",
         "ua":"Записатись"
@@ -105,9 +115,9 @@ const langArr = {
         "ua":"Збільшення м'язової маси та сили м'язів"
     },
     "add-weight3":{
-        "ru":"Укрепление связочного аппарата",
-        "en":"Strengthening the ligamentous apparatus",
-        "ua":"Зміцнення зв'язкового апарату"
+        "ru":"Укрепление суставно-связочного аппарата",
+        "en":"Strengthening the articular-ligamentous apparatus",
+        "ua":"Зміцнення суглобово-зв'язувального апарату"
     },
     "add-weight4":{
         "ru":"Записаться",
