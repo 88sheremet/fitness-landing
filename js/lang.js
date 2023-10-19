@@ -284,6 +284,11 @@ const langArr = {
         "en":"- The program is built taking into account the individual characteristics of the person, as well as previous training experience",
         "ua":"- Програма будуватиметься з урахуванням індивідуальних особливостей людини, а також попереднього досвіду занять"
     },
+    "contact1":{
+        "ru":"Мои контакты",
+        "en":"My contacts",
+        "ua":"Мої контакти"
+    },
     "burger1":{
         "ru":"Главная",
         "en":"Main",
