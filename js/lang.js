@@ -120,6 +120,11 @@ const langArr = {
         "ua":"Зміцнення суглобово-зв'язувального апарату"
     },
     "add-weight4":{
+        "ru":"Увеличение силовых показателей",
+        "en":"Increase in strength indicators",
+        "ua":"Збільшення силових показників"
+    },
+    "add-weight5":{
         "ru":"Записаться",
         "en":"Sign up for training",
         "ua":"Записатись"
