@@ -21,13 +21,13 @@ main {
     margin-bottom: 160px;
   }
 }
-.programs-link{
+.programs-link {
   position: absolute;
   top: 480px;
 }
-.main-link{
+.main-link {
   position: absolute;
-  top: 1px; 
+  top: 1px;
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
   (min-resolution: 192dpi) and (min-width: 280px),
@@ -195,6 +195,9 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    padding-top: 65px;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -213,6 +216,27 @@ main {
         rgba(47, 48, 58, 0.4)
       ),
       url("../img/tablet/hero-tablet.png");
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/hero-tablet-1024.png");
+    background-size: 1100px 474px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1000px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/hero-tablet-1024.png");
   }
 }
 @media (min-width: 1200px) {
@@ -321,7 +345,7 @@ main {
     font-size: 20px;
     margin-right: 10px;
   }
-  .programs-link{
+  .programs-link {
     position: absolute;
     top: 700px;
   }
