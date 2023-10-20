@@ -162,6 +162,10 @@
     width: 560px;
     height: 680px;
   }
+  .about-link{
+  
+    top: 2050px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -185,5 +189,9 @@
   .team-image {
     width: 545px;
     height: 350px;
+  }
+  .about-link{
+  
+    top: 2300px;
   }
 }

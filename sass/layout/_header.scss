@@ -14,17 +14,7 @@
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  column-gap: 40px;
   display: none;
-}
-.menu__logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
 }
 
 .mobile-menu-btn {
@@ -38,31 +28,6 @@
 .menu-list {
   display: flex;
   gap: 15px;
-}
-
-.menu-item__current {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  text-decoration: none;
-  margin-top: auto;
-  margin-bottom: auto;
-
-  &::after {
-    position: absolute;
-    display: block;
-    content: "";
-    background: var(--accent-color);
-    height: 2px;
-    left: 0;
-    width: 100%;
-    margin-top: 6px;
-  }
 }
 
 .nav {
@@ -166,9 +131,6 @@ select {
 
 @media (min-width: 768px) {
   .menu {
-    display: flex;
-    align-items: center;
-    column-gap: 40px;
     display: none;
   }
 
@@ -197,7 +159,8 @@ select {
     align-items: center;
     column-gap: 40px;
   }
-  .menu-item {
+ 
+  .menu-list__item {
     position: relative;
     font-weight: 500;
     font-size: 15px;
@@ -205,23 +168,18 @@ select {
     letter-spacing: 0.02em;
     color: var(--white-color);
     text-decoration: none;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .menu-list__item {
     border: 1px solid var(--white-color);
     border-radius: 25px;
     padding: 8px 30px;
-    transition-property: border;
+    transition-property: border color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
       border: 1px solid var(--accent-color2);
     }
-    &:hover .menu-item,
-    &:focus .menu-item {
+    &:hover ,
+    &:focus {
       color: var(--accent-color2);
     }
   }

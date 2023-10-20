@@ -129,18 +129,7 @@ ul {
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  column-gap: 40px;
   display: none;
-}
-
-.menu__logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
 }
 
 .mobile-menu-btn {
@@ -154,30 +143,6 @@ ul {
 .menu-list {
   display: flex;
   gap: 15px;
-}
-
-.menu-item__current {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  text-decoration: none;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.menu-item__current::after {
-  position: absolute;
-  display: block;
-  content: "";
-  background: var(--accent-color);
-  height: 2px;
-  left: 0;
-  width: 100%;
-  margin-top: 6px;
 }
 
 .nav {
@@ -276,9 +241,6 @@ select {
 
 @media (min-width: 768px) {
   .menu {
-    display: flex;
-    align-items: center;
-    column-gap: 40px;
     display: none;
   }
   .page-header {
@@ -305,7 +267,7 @@ select {
     align-items: center;
     column-gap: 40px;
   }
-  .menu-item {
+  .menu-list__item {
     position: relative;
     font-weight: 500;
     font-size: 15px;
@@ -313,22 +275,17 @@ select {
     letter-spacing: 0.02em;
     color: var(--white-color);
     text-decoration: none;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .menu-list__item {
     border: 1px solid var(--white-color);
     border-radius: 25px;
     padding: 8px 30px;
-    transition-property: border;
+    transition-property: border color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .menu-list__item:hover, .menu-list__item:focus {
     border: 1px solid var(--accent-color2);
   }
-  .menu-list__item:hover .menu-item, .menu-list__item:focus .menu-item {
+  .menu-list__item:hover, .menu-list__item:focus {
     color: var(--accent-color2);
   }
   select {
@@ -494,7 +451,7 @@ main {
 
 @media screen and (min-width: 280px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/hero-mob.png");
     background-size: 470px 474px;
     background-repeat: no-repeat;
     background-position: left top;
@@ -503,7 +460,7 @@ main {
   .hero__main-image {
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.7;
+    filter: brightness(0.8);
     margin-bottom: 160px;
   }
 }
@@ -519,7 +476,7 @@ main {
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/hero-mob.png");
   }
 }
 .hero-content {
@@ -618,15 +575,15 @@ main {
 @keyframes glowing2 {
   0% {
     background-color: var(--background-color);
-    box-shadow: 0 0 4px var(--accent-color2);
+    box-shadow: 0 0 5px var(--accent-color2);
   }
   50% {
     background-color: var(--background-color);
-    box-shadow: 0 0 9px var(--accent-color2);
+    box-shadow: 0 0 10px var(--accent-color2);
   }
   100% {
     background-color: var(--background-color);
-    box-shadow: 0 0 4px var(--accent-color2);
+    box-shadow: 0 0 5px var(--accent-color2);
   }
 }
 .subscribe-btn2:active {
@@ -659,24 +616,24 @@ main {
 
 @media screen and (min-width: 470px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob-470.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/hero-mob-470.png");
     background-size: 800px 474px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 470px), (min-resolution: 192dpi) and (min-width: 470px), (min-resolution: 2dppx) and (min-width: 470px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/bg12-mob-470.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/mobile/hero-mob-470.png");
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/bg-hero-tablet.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/hero-tablet.png");
     background-size: 1000px 474px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/bg-hero-tablet2x.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/tablet/hero-tablet.png");
   }
 }
 @media (min-width: 1200px) {
@@ -691,7 +648,6 @@ main {
     margin: 0 auto;
   }
   .hero__main-image {
-    opacity: 0.9;
     margin-bottom: 323px;
     margin-left: auto;
     margin-right: 0;
@@ -913,6 +869,9 @@ main {
   }
 }
 @media screen and (min-width: 1200px) {
+  .benefits {
+    padding-bottom: 50px;
+  }
   .benefits__title {
     font-size: 28px;
   }
@@ -988,6 +947,8 @@ main {
   .work {
     background-size: 1200px 516px;
     background-position: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .work-list {
     width: 1158px;
@@ -1171,6 +1132,9 @@ main {
     width: 560px;
     height: 680px;
   }
+  .about-link {
+    top: 2050px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -1193,6 +1157,9 @@ main {
   .team-image {
     width: 545px;
     height: 350px;
+  }
+  .about-link {
+    top: 2300px;
   }
 }
 .clients {

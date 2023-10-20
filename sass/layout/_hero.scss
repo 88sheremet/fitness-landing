@@ -8,7 +8,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/mobile/bg12-mob.png");
+      url("../img/mobile/hero-mob.png");
     background-size: 470px 474px;
     background-repeat: no-repeat;
     background-position: left top;
@@ -17,7 +17,7 @@ main {
   .hero__main-image {
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.7;
+    filter: brightness(0.8);
     margin-bottom: 160px;
   }
 }
@@ -37,7 +37,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/mobile/bg12-mob.png");
+      url("../img/mobile/hero-mob.png");
   }
 }
 .hero-content {
@@ -135,15 +135,15 @@ main {
   @keyframes glowing2 {
     0% {
       background-color: var(--background-color);
-      box-shadow: 0 0 4px var(--accent-color2);
+      box-shadow: 0 0 5px var(--accent-color2);
     }
     50% {
       background-color: var(--background-color);
-      box-shadow: 0 0 9px var(--accent-color2);
+      box-shadow: 0 0 10px var(--accent-color2);
     }
     100% {
       background-color: var(--background-color);
-      box-shadow: 0 0 4px var(--accent-color2);
+      box-shadow: 0 0 5px var(--accent-color2);
     }
   }
   &:active {
@@ -177,7 +177,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/mobile/bg12-mob-470.png");
+      url("../img/mobile/hero-mob-470.png");
     background-size: 800px 474px;
   }
 }
@@ -190,7 +190,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/mobile/bg12-mob-470.png");
+      url("../img/mobile/hero-mob-470.png");
   }
 }
 
@@ -200,7 +200,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/tablet/bg-hero-tablet.png");
+      url("../img/tablet/hero-tablet.png");
     background-size: 1000px 474px;
   }
 }
@@ -212,7 +212,7 @@ main {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/tablet/bg-hero-tablet2x.png");
+      url("../img/tablet/hero-tablet.png");
   }
 }
 @media (min-width: 1200px) {
@@ -231,7 +231,6 @@ main {
     margin: 0 auto;
   }
   .hero__main-image {
-    opacity: 0.9;
     margin-bottom: 323px;
     margin-left: auto;
     margin-right: 0;
